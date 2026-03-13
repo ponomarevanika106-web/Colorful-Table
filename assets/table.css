@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: x-large;
+}
+
+h1 span{
+    color: rgb(190, 70, 190);
+}
+
+
+table {
+  border: 3px solid red;
+  background-color:#bcb76a;
+  font-size: 20px;
+  margin: auto;
+}
+
+th,
+td {
+  border: 3px solid blue;
+  text-align: center;
+}
+
+th {
+  background-color:#fee4c3;
+  width: 125px;
+}
+
+th:first-child {
+  width: 45px;
+}
+
+tr:nth-of-type(odd) {
+   background: #c3cad0;
+}
+
+tbody td:first-child {
+  background-color: #14f3ff;
+}
+
+tr:last-child td{
+  background-color: #ff9f78;
+}
+
