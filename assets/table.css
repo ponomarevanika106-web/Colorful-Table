@@ -2,16 +2,15 @@
 * {
   box-sizing: border-box;
 }
-h1{
-    color: red;
-    text-align: center;
-    font-size: x-large;
+
+caption {
+  color: red;
 }
 
-h1 span{
-    color: rgb(190, 70, 190);
+caption::after {
+  content: "#5";
+  color: #712abb;
 }
-
 
 table {
   border: 3px solid red;
